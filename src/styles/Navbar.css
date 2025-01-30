@@ -1,0 +1,33 @@
+/* NAV */
+nav {
+    background: linear-gradient(to bottom, var(--nav-color), var(--main-color));
+    border-bottom: 2px solid var(--border-color);
+}
+
+ul.nav {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-top: 0em;
+}
+
+ul.nav li {
+    font-size: var(--font-nav-size);
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Font_Marble';
+    font-weight: bold;
+}
+
+nav a {
+    color: var(--font-nav-a-color);
+}
+
+ul.nav li a:hover {
+    text-decoration: underline;
+}

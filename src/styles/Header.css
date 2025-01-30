@@ -1,0 +1,106 @@
+/* HEADER */
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-right: 1em;
+    padding-left: 1em;
+
+}
+
+header .logo {
+    height: var(--height-logo);
+
+}
+
+header .logins {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 1em;
+    top: 1em;
+}
+
+
+i{
+    margin: 0.2em;
+    font-size: 1.2rem;
+
+
+}
+
+i:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    margin-top: 0.2em;
+    left: 1em;
+    top: 0em;
+}
+
+.shop {
+    display: none;
+    color: var(--font-dark-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 0.1em;
+}
+
+
+
+
+
+/* FORMATO BASE DE LOS BOTONES */
+button, a.button {
+    background-color: var(--button-bg-color);
+    color: var(--font-color);
+    border-radius: 0.3em;
+    padding: 0.5em;
+    /* font-size: var(--font-button-small-size); */
+    cursor: pointer;
+
+    font-family: 'Font_Marble';
+    font-weight: bold;
+}
+
+/* Searcher */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 0em;
+    width: 100%;
+}
+
+.search input {
+    width: 100%;
+    padding: 0.2em;
+    font-size: var(--font-input-size-small);
+    margin-right: 0.2em;
+    width: 70%;
+}
+
+.search button {
+    /* display: none; */
+    border-radius: 0.3em;
+    /* padding: 1em; */
+    font-size: var(--font-button-search-size);
+    cursor: pointer;
+
+    font-family: 'Font_Marble';
+    font-weight: bold;
+    width: 5em;
+}

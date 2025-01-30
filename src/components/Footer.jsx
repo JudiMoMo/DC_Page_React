@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 // import the css for the footer
 import '../styles/Footer.css'
+import logo from '../assets/DC_Comics_logo.png'
 
 export default class Footer extends Component {
     render() {
         return (
             <>
-                <footer class="dc-footer">
-                    <div class="footer-content">
-                        {/* <div class="logo-section">
-                            <img src="img/DC_Comics_logo.png" alt="Logo de DC" class="dc-logo">
+                <footer className="dc-footer">
+                    <div className="footer-content">
+                        <div className="logo-section">
+                            <img src={logo} alt="Logo de DC" className="dc-logo"/>
                                 <p>Los héroes se levantan, las leyendas perduran.</p>
-                        </div> */}
+                        </div>
 
-                        <div class="footer-links">
+                        <div className="footer-links">
                             <p>Explorar</p>
                             <ul>
                                 <li><a href="#movies">Películas</a></li>
@@ -22,7 +23,7 @@ export default class Footer extends Component {
                                 <li><a href="#tv-shows">Series de TV</a></li>
                             </ul>
                         </div>
-                        <div class="footer-links">
+                        <div className="footer-links">
                             <p>Tienda</p>
                             <ul>
                                 <li><a href="#apparel">Ropa</a></li>
@@ -32,7 +33,7 @@ export default class Footer extends Component {
                             </ul>
                         </div>
 
-                        <div class="social-links">
+                        <div className="social-links">
                             <p>Síguenos</p>
                             <a href="https://www.facebook.com/dc" target="_blank">Facebook</a>
                             <a href="https://www.twitter.com/dccomics" target="_blank">Twitter</a>
@@ -41,7 +42,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
 
-                    <div class="footer-bottom">
+                    <div className="footer-bottom">
                         <p>© 2023 DC Entertainment. Todos los derechos reservados.</p>
                         <p><a href="#privacy">Política de Privacidad</a> | <a href="#terms">Términos de Uso</a></p>
                     </div>
